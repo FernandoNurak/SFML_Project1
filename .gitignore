@@ -1,0 +1,18 @@
+# Build
+build/
+
+# Visual Studio
+.vs/
+*.ipch
+*.pch
+
+# Binaries
+*.exe
+*.dll
+
+# CMake / Ninja
+.ninja_log
+.ninja_deps
+
+# clangd
+compile_commands.json
