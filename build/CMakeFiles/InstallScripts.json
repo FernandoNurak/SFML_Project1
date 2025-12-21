@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"E:/Document/SFML_Project/build/cmake_install.cmake"
+		"/home/renne/Documents/SFML_Project1/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }
