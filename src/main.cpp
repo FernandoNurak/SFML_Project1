@@ -58,11 +58,10 @@ int main() {
         
 
         }
-        sprite.rotate(sf::Angle(sf::degrees(1)));
-
         if (sf::Keyboard::isKeyPressed(sf::Keyboard::Scan::W)) {
             sprite.move({0.0f,-1.0f});
             sprite.setTextureRect(dir[up]);
+            sprite.rotate(sf::Angle(sf::degrees(1)));
         }else if (sf::Keyboard::isKeyPressed(sf::Keyboard::Scan::S)) {
             sprite.move({0.0f,1.0f});
             sprite.setTextureRect(dir[down]);
@@ -73,7 +72,6 @@ int main() {
             sprite.move({1.0f,0.0f});
             sprite.setTextureRect(dir[right]);
         }
-
         //render display asset 
         window->clear();
 

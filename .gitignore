@@ -16,3 +16,23 @@ build/
 
 # clangd
 compile_commands.json
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+*.cmake
+
+# Ninja
+.ninja*
+compile_commands.json
+
+# Visual Studio
+*.sln
+.vcxproj
+*.filters
+*.user
+.vs/
+
+# OS junk
+.DS_Store
+Thumbs.db
