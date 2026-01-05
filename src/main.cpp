@@ -44,7 +44,7 @@ int main() {
     sprite.setOrigin({16,16});      //titik orginal atau bisa di bilang pivot dari sebuah obejek berguna klo emng objeknya di puter dll
     sprite.setPosition({width / 2.0f , height /2.0f});         //memntukan posisi sprite dengan sumbu X dan sumbuY
 
-    //kondisi untuk looping layar display
+    //kondisi untuk looping layar display game 
     while(window->isOpen()){
         while (const std::optional event = window->pollEvent()){
             if (event->is<sf::Event::Closed>()){
